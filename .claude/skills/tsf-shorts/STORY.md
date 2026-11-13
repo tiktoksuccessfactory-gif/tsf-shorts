@@ -35,7 +35,8 @@ A calm, clear narrator says about 2.6 words a second. **165-190 words** gives 63
 
 ## Recording tips for the user (ElevenLabs)
 
-- A warm, clear narrator voice with an American or British accent.
+- Voice: pick one from the Voice Library, or create one in Voice Design with this prompt (also in `VOICE_PROMPT.txt`):
+  "A warm, confident American male narrator in his early 30s, clear and expressive storytelling voice with a slightly playful tone, like a documentary host who loves weird history. Studio quality, close microphone, no background noise, medium pace."
 - Stability about 45-55 %, similarity about 75 %, style 0-20 %, speed 1.0-1.1.
 - Generate the whole script in one go (same voice energy), listen, regenerate only bad sentences if needed, then export one mp3.
 - Save it as `episodes/<name>/voice.mp3`.

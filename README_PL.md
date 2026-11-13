@@ -27,9 +27,17 @@ Gotowe filmy lądują w `out\<nazwa>\`: `<nazwa>.mp4` z napisami i `<nazwa>_no_c
 
 1. Otwórz folder `TSF_Shorts` w Claude Code i napisz np. *"Zróbmy nowy odcinek TSF o Pig War"* albo *"daj 3 tematy"*.
 2. Claude sprawdza fakty i pisze scenariusz (`episodes\<nazwa>\SCRIPT.txt`). Poprawiacie, aż Ci pasuje.
-3. Nagrywasz scenariusz w ElevenLabs (stabilność ok. 50%, similarity ok. 75%, style 0-20%) i zapisujesz jako `episodes\<nazwa>\voice.mp3`.
+3. Nagrywasz scenariusz w ElevenLabs (głos i ustawienia niżej) i zapisujesz jako `episodes\<nazwa>\voice.mp3`.
 4. Piszesz Claude'owi, że głos jest. On odpala czasy słów, układa ujęcia, sprawdza klatki i poprawia kadry.
 5. Na koniec `RENDER.bat` (albo Claude sam odpala render) i masz gotowy film plus opis i hashtagi.
+
+## Głos lektora (ElevenLabs)
+
+Lektora wybierasz z Voice Library albo tworzysz własnego w **Voice Design**. Do Voice Design wklej ten prompt (jest też w pliku `VOICE_PROMPT.txt`):
+
+> A warm, confident American male narrator in his early 30s, clear and expressive storytelling voice with a slightly playful tone, like a documentary host who loves weird history. Studio quality, close microphone, no background noise, medium pace.
+
+Ustawienia przy generowaniu narracji: stability ok. 50%, similarity ok. 75%, style 0-20%, speed 1.0-1.1. Cały scenariusz generuj naraz, żeby głos miał tę samą energię od początku do końca, potem pobierz mp3.
 
 ## Odcinek przykładowy: Great Emu War
 
