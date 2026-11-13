@@ -1,0 +1,16 @@
+{
+  "name": "tsf-shorts",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "TSF Shorts: hand-drawn characters in a 3D world, timed to your voice-over. Renders vertical TikTok videos.",
+  "scripts": {
+    "render": "node scripts/make.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "dependencies": {
+    "three": "0.169.0",
+    "playwright-core": "1.63.0",
+    "ffmpeg-static": "5.2.0"
+  }
+}

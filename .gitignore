@@ -1,0 +1,9 @@
+node_modules/
+out/*
+!out/README.txt
+__pycache__/
+*.pyc
+episodes/*/voice.mp3
+episodes/*/voice.wav
+.DS_Store
+Thumbs.db

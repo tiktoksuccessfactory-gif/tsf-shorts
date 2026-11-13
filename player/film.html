@@ -1,0 +1,30 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="icon" href="data:,"><title>TSF film</title>
+<style>html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"../node_modules/three/build/three.module.js"}}</script>
+</head><body><canvas id="c"></canvas>
+<script type="module">
+// Render page used by the scripts. URL: film.html?ep=<episode folder>&w=1080&h=1920
+import { Film } from '../engine/film.js';
+const q = new URLSearchParams(location.search);
+const W = +(q.get('w') || 1080), H = +(q.get('h') || 1920), ep = q.get('ep') || 'demo';
+window.TSF = { ready: false };
+try {
+  const mod = await import(`../episodes/${ep}/episode.js`);
+  let words = [];
+  try { const r = await fetch(`../episodes/${ep}/words.json`); if (r.ok) words = await r.json(); } catch (e) {}
+  const c = document.getElementById('c'); c.width = W; c.height = H;
+  const film = new Film(c, W, H, mod, words);
+  const gl = film.r.getContext(); const dbg = gl.getExtension('WEBGL_debug_renderer_info');
+  window.TSF = {
+    ready: true, film, fps: 30,
+    duration: film.duration,
+    gpu: dbg ? gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL) : gl.getParameter(gl.RENDERER),
+    frame(f) { film.renderFrame(f, 30); },
+    grab(f, q = 0.95) { film.renderFrame(f, 30); return c.toDataURL('image/jpeg', q); },
+    audioPlan() { return film.audioPlan(); },
+  };
+  const f0 = q.get('frame'); if (f0 !== null) film.renderFrame(+f0, 30);
+} catch (e) { window.TSF = { ready: false, error: String(e && e.stack || e) }; console.error(e); }
+window.TSF_LOADED = true;
+</script></body></html>

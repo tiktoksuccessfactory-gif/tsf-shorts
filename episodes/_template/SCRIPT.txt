@@ -1,0 +1,1 @@
+Write the narration here (165-190 words). Record it, save as voice.mp3 in this folder, then run: python scripts/words.py <name>
