@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // TSF post chain (own implementation):
 //   1) world normals + depth (cards excluded)      -> rtN
 //   2) full colour HDR + depth (MSAA)              -> rtC

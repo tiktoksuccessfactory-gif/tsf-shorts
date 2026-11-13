@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Builds the soundtrack: your voice-over + music that ducks under the voice + sound effects at their cues.
 //   node scripts/audio.mjs <episode>   (reads out/<ep>/audio_plan.json written by render.mjs) -> out/<ep>/mix.wav
 import fs from 'node:fs';

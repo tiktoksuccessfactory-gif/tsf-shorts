@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // TSF character kit: hand-drawn stickman characters painted with Canvas2D.
 // Design: round head (large, ~1/3 of height), marker-black outline with a slight hand wobble, eye shine,
 // one comic cel-shade band, clothed torso, stick limbs, mitten hands, round shoes.

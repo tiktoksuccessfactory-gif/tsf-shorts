@@ -1,5 +1,7 @@
 # TSF Shorts
 
+**Autor: Kevin Hopek, [TikTok Success Factory](https://tiktoksuccessfactory.pl)**
+
 Nasz własny system do pionowych animowanych shortów na TikToka: ręcznie rysowane ludziki i zwierzaki w świecie 3D, z konturami, rozmyciem tła, muzyką i efektami, wszystko zgrane co do słowa z Twoim lektorem. Filmy po angielsku, 61-75 sekund, pod Creator Rewards.
 
 Cały kod jest nasz. Silnik korzysta tylko ze zwykłych darmowych bibliotek open source, które instalują się same (three.js, Playwright, ffmpeg, faster-whisper).
@@ -71,3 +73,10 @@ TSF_Shorts\
 - **npm install nie wychodzi**: zainstaluj Node w wersji LTS (nie "Current") i odpal `RENDER.bat` jeszcze raz.
 - **WORDS.bat: brak Pythona**: zainstaluj Pythona z python.org z zaznaczonym "Add python.exe to PATH".
 - **Lektor dłuższy niż film**: odcinek kończy się na ostatnim słowie z `words.json`; po nagraniu zawsze odpal `WORDS.bat`.
+
+## Licencja
+
+Możesz używać TSF Shorts do robienia własnych filmów, także na kontach, na których zarabiasz. Gotowe filmy są Twoje.
+Bez mojej pisemnej zgody nie wolno sprzedawać, odsprzedawać, dodawać do płatnych kursów ani publikować kopii tego projektu w innych miejscach. Pełne zasady: `LICENSE.txt`.
+
+TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl)

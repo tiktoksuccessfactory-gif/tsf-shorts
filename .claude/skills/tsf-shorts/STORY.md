@@ -45,3 +45,6 @@ A calm, clear narrator says about 2.6 words a second. **165-190 words** gives 63
 
 One or two lines that add curiosity (not a summary), a question that invites comments, then 3-5 hashtags, for example:
 `The army had machine guns. The emus had legs. Who would you bet on? #history #didyouknow #animation #australia #storytime`
+
+---
+TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt

@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Turns words.json into animated captions (an .ass subtitle file that ffmpeg burns into the video).
 // Style comes from the episode's `captions` settings (see SKILL.md): one or two words at a time, pop-in, outline.
 import fs from 'node:fs';

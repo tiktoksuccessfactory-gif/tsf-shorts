@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Animals in the same hand-drawn style. Same card size as people (768 x 1024, ground at y = 1000),
 // so they use the same Actor:  new Actor(ANIMALS.dog, { seed: 2 })   poses: idle | walk | run | scared | down | sit
 // expressions: neutral | happy | shock | angry | sad. They face right; set flip: true to face left.

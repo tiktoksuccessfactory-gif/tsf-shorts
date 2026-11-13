@@ -32,3 +32,6 @@ True stories with a clear "it backfired" or "nobody expected this" moment, easy 
 28. **Millennium Bridge (2000)** - London's new bridge wobbled on opening day because people walked in step.
 29. **New Coke (1985)** - Coca-Cola changed its recipe and had to bring the old one back in 79 days.
 30. **The Eiffel Tower was supposed to be temporary (1909)** - it was saved because it made a great radio antenna.
+
+---
+TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt

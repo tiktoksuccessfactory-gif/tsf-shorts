@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Background music, composed on the fly from patterns. Moods: quirky, sneaky, tension, upbeat, mystery, sad, epic.
 // music(mood, seconds, seed) -> { L, R } (Float32Arrays). Every section starts on bar 1, so a mood change sounds like a cut.
 import { SR, TAU, len, buf, noise, osc, lp, hp, bp, filt, dec, ar, adsr, env, gain, fade, norm, sum, place, sat, pluck, fm, midi, rng, reverb } from './dsp.mjs';

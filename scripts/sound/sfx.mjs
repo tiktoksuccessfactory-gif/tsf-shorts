@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Sound effects, all synthesised (no samples). Each entry: (r, d) => Float32Array, r = random generator, d = optional length.
 // LEVEL holds the default loudness of each effect in the mix (1 = loud hit, 0.3 = background detail).
 import { SR, TAU, len, buf, noise, osc, filt, lp, hp, bp, dec, ar, env, gain, fade, norm, sum, place, sat, pluck, fm } from './dsp.mjs';

@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // THE GREAT EMU WAR (1932) - example episode. Narration: SCRIPT.txt. Times come from words.json.
 // Every cue below is tied to a phrase of the voice-over, with a backup time in case the phrase is not found.
 import * as THREE from 'three';

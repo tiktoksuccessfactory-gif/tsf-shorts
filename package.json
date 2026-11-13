@@ -12,5 +12,7 @@
     "three": "0.169.0",
     "playwright-core": "1.63.0",
     "ffmpeg-static": "5.2.0"
-  }
+  },
+  "author": "Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl)",
+  "license": "SEE LICENSE IN LICENSE.txt"
 }

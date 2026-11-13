@@ -195,3 +195,6 @@ Made from words.json: one or two words at a time, pop-in, white with a dark outl
 | `node scripts/preview.mjs <name>` | live preview in the browser (voice only until a render made the mix) |
 
 Environment: `TSF_CHROME` = path to a Chrome/Edge exe if it is not found; `TSF_GL=swiftshader` if the graphics card makes trouble (slow but safe).
+
+---
+TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt

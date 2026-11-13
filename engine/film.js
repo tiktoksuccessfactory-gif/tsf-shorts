@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Film runtime: turns an episode description into frames.
 // An episode module exports build(ctx) and returns { duration, shots, flashes? }.
 //   shot = { from, to, light, cam(t) -> {pos, look, fov?, roll?}, dof?(t) -> {focus | target, cInf}, update?(t, cam), fadeIn? (s) }

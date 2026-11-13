@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Effects that live in the 3D world: smoke and dust puffs, confetti, sparkles, splashes, things falling from the sky.
 // All of them are pure functions of time (t0 = when it starts), so any frame can be rendered on its own.
 //   puff(stage, { at: [x, y, z], t0: 3.2, n: 12, color: '#ffffff' })

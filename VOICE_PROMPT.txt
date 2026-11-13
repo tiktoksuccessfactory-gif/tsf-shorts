@@ -4,3 +4,5 @@ A warm, confident American male narrator in his early 30s, clear and expressive 
 
 Ustawienia przy generowaniu narracji: stability ok. 50%, similarity ok. 75%, style 0-20%, speed 1.0-1.1.
 Caly scenariusz generuj naraz, pobierz mp3 i zapisz jako episodes\<nazwa>\voice.mp3.
+
+TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt

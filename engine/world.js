@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // TSF world kit: light presets, sky, painted textures and a box of building blocks
 // (ground, roads, houses, trees, props, water, signs). All toon-shaded, everything gets ink lines.
 import * as THREE from 'three';

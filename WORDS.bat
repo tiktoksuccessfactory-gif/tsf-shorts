@@ -1,4 +1,5 @@
 @echo off
+REM TSF Shorts (c) 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedazy, zasady: LICENSE.txt
 title TSF Shorts - czasy slow
 setlocal
 cd /d "%~dp0"

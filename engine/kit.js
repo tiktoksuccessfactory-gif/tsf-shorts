@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // More sets and props: rooms, furniture, city, industry, transport, nature, landmarks, crowds.
 // Every builder: name(stage, { x, z, rot, ...options }) and returns a THREE.Group you can move or animate.
 import * as THREE from 'three';

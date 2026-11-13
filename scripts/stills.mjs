@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Quick check frames (for Claude or for you): renders single frames at small size and a contact sheet.
 //   node scripts/stills.mjs <episode> [--n 12] [--at 1.5,3,7.25] [--big]
 //   -> out/<episode>/stills/t_<seconds>.jpg and out/<episode>/stills/sheet.jpg

@@ -1,3 +1,4 @@
+# TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 """Word timings for the voice-over (everything in the film is timed to these words).
 
     python scripts/words.py <episode> [--model small.en] [--lang en]

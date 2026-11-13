@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Small DSP toolkit for the sound effects and music. Mono Float32Array buffers at 48 kHz.
 export const SR = 48000;
 export const TAU = Math.PI * 2;

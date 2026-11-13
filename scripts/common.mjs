@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Shared helpers for the TSF scripts: paths, a tiny static file server, launching the browser, running ffmpeg.
 import http from 'node:http';
 import fs from 'node:fs';
@@ -12,6 +13,8 @@ export const FFMPEG = process.env.TSF_FFMPEG || ffmpegPath;
 export const epDir = (ep) => path.join(ROOT, 'episodes', ep);
 export const outDir = (ep) => { const d = path.join(ROOT, 'out', ep); fs.mkdirSync(d, { recursive: true }); return d; };
 export const log = (...a) => console.log('[tsf]', ...a);
+export const SIGNATURE = 'TSF Shorts by Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl)';
+console.log('\n  ' + SIGNATURE + '\n');
 
 const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.mjs': 'text/javascript', '.json': 'application/json', '.css': 'text/css', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.svg': 'image/svg+xml', '.mp3': 'audio/mpeg', '.wav': 'audio/wav', '.m4a': 'audio/mp4', '.ttf': 'font/ttf', '.woff2': 'font/woff2' };
 export function serve(port = 0) {

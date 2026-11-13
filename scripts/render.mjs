@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Renders the picture of an episode to out/<ep>/video_clean.mp4 (no sound, no captions).
 //   node scripts/render.mjs <episode> [--draft] [--workers N] [--from s] [--to s]
 import fs from 'node:fs';

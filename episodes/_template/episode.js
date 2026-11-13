@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // TEMPLATE: copy this folder to episodes/<name>/ and build the film here. Full example: episodes/emu_war/episode.js
 import * as THREE from 'three';
 import { ground, road, sidewalk, house, tree, lamp, clouds, toon, mesh } from '../../engine/world.js';

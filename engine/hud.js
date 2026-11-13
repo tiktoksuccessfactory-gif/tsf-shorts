@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Flat graphics on top of the picture (after the 3D look): big titles, numbers that count up, labels, emoji-like stamps.
 //   hud: [{ from: 2.1, to: 4.0, text: '1919', y: 0.22, size: 150 }, { from: 5, to: 8, count: [0, 125000000], prefix: '$' }]
 import * as THREE from 'three';

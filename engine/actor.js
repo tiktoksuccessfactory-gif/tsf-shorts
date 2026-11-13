@@ -1,3 +1,4 @@
+// TSF Shorts © 2026 Kevin Hopek, TikTok Success Factory (tiktoksuccessfactory.pl). Zakaz odsprzedaży i publikowania kopii, zasady: LICENSE.txt
 // Actors: hand-drawn character cards standing in the 3D world.
 // A card always turns to face the camera (around the vertical axis), is tinted by the scene light,
 // casts a real shadow from its cut-out and has a soft contact blob under the feet.
